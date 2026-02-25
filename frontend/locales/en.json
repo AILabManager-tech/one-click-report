@@ -49,6 +49,30 @@
     "download_pdf": "Download PDF",
     "summary_title": "AI Summary"
   },
+  "og": {
+    "title": "One-Click Report — PDF Generator + AI Summary",
+    "description": "Turn CSV/JSON into visual PDF reports with AI summaries in 1 click. Free to use.",
+    "image_alt": "One-Click Report AI — Automatic PDF report generator"
+  },
+  "faq_title": "Frequently Asked Questions",
+  "faq": [
+    {
+      "q": "How do I generate a PDF report automatically?",
+      "a": "Upload a CSV or JSON file, choose your options (language, charts, context), and click 'Generate'. Your PDF report with AI summary is ready in seconds."
+    },
+    {
+      "q": "What data formats are supported?",
+      "a": "CSV and JSON files are supported. JSON files must contain an array of objects. Maximum 10,000 rows and 10 MB per file."
+    },
+    {
+      "q": "Is the AI summary available in my language?",
+      "a": "Yes, AI summaries are generated in French, English, Spanish and German. The summary language matches the interface language."
+    },
+    {
+      "q": "Is it free?",
+      "a": "Freemium mode allows up to 5 free reports. No sign-up required for the demo."
+    }
+  ],
   "footer": {
     "made_with": "Powered by",
     "rights": "All rights reserved"

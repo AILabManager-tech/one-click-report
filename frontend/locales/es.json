@@ -49,6 +49,30 @@
     "download_pdf": "Descargar PDF",
     "summary_title": "Resumen IA"
   },
+  "og": {
+    "title": "Reporte en Un Clic — Generador PDF + Resumen IA",
+    "description": "Convierta CSV/JSON en reportes PDF visuales con resúmenes IA en 1 clic. Gratis.",
+    "image_alt": "One-Click Report AI — Generador automático de reportes PDF"
+  },
+  "faq_title": "Preguntas frecuentes",
+  "faq": [
+    {
+      "q": "¿Cómo genero un reporte PDF automáticamente?",
+      "a": "Suba un archivo CSV o JSON, elija sus opciones (idioma, gráficos, contexto) y haga clic en 'Generar'. Su reporte PDF con resumen IA estará listo en segundos."
+    },
+    {
+      "q": "¿Qué formatos de datos se aceptan?",
+      "a": "Se admiten archivos CSV y JSON. El archivo JSON debe contener un arreglo de objetos. Máximo 10.000 filas y 10 MB por archivo."
+    },
+    {
+      "q": "¿El resumen IA está disponible en mi idioma?",
+      "a": "Sí, los resúmenes IA se generan en francés, inglés, español y alemán. El idioma del resumen corresponde al de la interfaz."
+    },
+    {
+      "q": "¿Es gratis?",
+      "a": "El modo freemium permite generar hasta 5 reportes gratis. No se requiere registro para la demostración."
+    }
+  ],
   "footer": {
     "made_with": "Impulsado por",
     "rights": "Todos los derechos reservados"

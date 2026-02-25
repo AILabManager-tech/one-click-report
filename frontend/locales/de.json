@@ -49,6 +49,30 @@
     "download_pdf": "PDF herunterladen",
     "summary_title": "KI-Zusammenfassung"
   },
+  "og": {
+    "title": "Ein-Klick-Bericht — PDF-Generator + KI-Zusammenfassung",
+    "description": "Verwandeln Sie CSV/JSON in visuelle PDF-Berichte mit KI-Zusammenfassung in 1 Klick. Kostenlos.",
+    "image_alt": "One-Click Report AI — Automatischer PDF-Bericht-Generator"
+  },
+  "faq_title": "Häufig gestellte Fragen",
+  "faq": [
+    {
+      "q": "Wie erstelle ich automatisch einen PDF-Bericht?",
+      "a": "Laden Sie eine CSV- oder JSON-Datei hoch, wählen Sie Ihre Optionen (Sprache, Diagramme, Kontext) und klicken Sie auf 'Generieren'. Ihr PDF-Bericht mit KI-Zusammenfassung ist in Sekunden fertig."
+    },
+    {
+      "q": "Welche Datenformate werden unterstützt?",
+      "a": "CSV- und JSON-Dateien werden unterstützt. Die JSON-Datei muss ein Array von Objekten enthalten. Maximal 10.000 Zeilen und 10 MB pro Datei."
+    },
+    {
+      "q": "Ist die KI-Zusammenfassung in meiner Sprache verfügbar?",
+      "a": "Ja, KI-Zusammenfassungen werden auf Französisch, Englisch, Spanisch und Deutsch erstellt. Die Sprache der Zusammenfassung entspricht der Oberflächensprache."
+    },
+    {
+      "q": "Ist es kostenlos?",
+      "a": "Der Freemium-Modus ermöglicht bis zu 5 kostenlose Berichte. Keine Registrierung für die Demo erforderlich."
+    }
+  ],
   "footer": {
     "made_with": "Angetrieben von",
     "rights": "Alle Rechte vorbehalten"

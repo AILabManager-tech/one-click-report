@@ -1,14 +1,21 @@
 "use client";
 
 import { useParams } from "next/navigation";
+import dynamic from "next/dynamic";
 import type { Language } from "@/types/report";
 import { getDictionary } from "../i18n";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
-import ReportForm from "@/components/ReportForm";
 import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
+
+const ReportForm = dynamic(() => import("@/components/ReportForm"), {
+  loading: () => <div className="py-20 text-center text-gray-400">...</div>,
+});
+const FAQ = dynamic(() => import("@/components/FAQ"), {
+  loading: () => <div className="py-20" />,
+});
 
 export default function LocalePage() {
   const params = useParams();
@@ -24,6 +31,7 @@ export default function LocalePage() {
           <Hero t={t.hero} />
           <Features t={t.features} />
           <ReportForm t={t.form} lang={locale} />
+          <FAQ items={(t as any).faq} title={(t as any).faq_title} />
         </main>
         <Footer t={t.footer} />
       </div>
