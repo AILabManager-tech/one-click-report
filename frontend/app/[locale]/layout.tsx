@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import { Inter } from "next/font/google";
 import { notFound } from "next/navigation";
 import { locales, getDictionary } from "../i18n";
@@ -100,17 +99,14 @@ export default function LocaleLayout({
         <link rel="alternate" hrefLang="x-default" href={`${BASE_URL}/fr`} />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7824408396443112"
+          crossOrigin="anonymous"
+        />
       </head>
       <body className="font-sans">
         {children}
-        {process.env.NEXT_PUBLIC_ADSENSE_ID && (
-          <Script
-            async
-            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_ID}`}
-            crossOrigin="anonymous"
-            strategy="lazyOnload"
-          />
-        )}
       </body>
     </html>
   );
