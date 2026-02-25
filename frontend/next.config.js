@@ -14,6 +14,22 @@ const nextConfig = {
           { key: "X-Content-Type-Options", value: "nosniff" },
           { key: "X-Frame-Options", value: "DENY" },
           { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+          {
+            key: "Content-Security-Policy",
+            value: [
+              "default-src 'self'",
+              "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://pagead2.googlesyndication.com https://adservice.google.com https://www.googletagservices.com https://tpc.googlesyndication.com",
+              "style-src 'self' 'unsafe-inline'",
+              "img-src 'self' data: https://pagead2.googlesyndication.com https://*.google.com https://*.doubleclick.net",
+              "frame-src https://googleads.g.doubleclick.net https://tpc.googlesyndication.com",
+              "connect-src 'self' https://pagead2.googlesyndication.com https://*.google.com",
+              "font-src 'self'",
+            ].join("; "),
+          },
+          {
+            key: "Permissions-Policy",
+            value: "camera=(), microphone=(), geolocation=(), interest-cohort=()",
+          },
         ],
       },
       {

@@ -36,6 +36,15 @@ export default function ReportForm({ t, lang }: ReportFormProps) {
   const [result, setResult] = useState<ReportOutput | null>(null);
   const [error, setError] = useState("");
 
+  const safeError = (e: unknown): string => {
+    const msg = e instanceof Error ? e.message : String(e);
+    if (msg.includes("Failed to fetch") || msg.includes("NetworkError")) return "Connection error. Please try again.";
+    if (msg.includes("413") || msg.includes("too large")) return "File too large (max 10 MB).";
+    if (msg.includes("415") || msg.includes("format")) return "Unsupported format. Use CSV or JSON.";
+    if (msg.includes("429")) return "Too many requests. Please wait.";
+    return "An error occurred. Please try again.";
+  };
+
   const handleFile = async (f: File) => {
     setFile(f);
     setError("");
@@ -43,7 +52,7 @@ export default function ReportForm({ t, lang }: ReportFormProps) {
       const res = await uploadFile(f);
       setData(res.data as Record<string, unknown>[]);
     } catch (e) {
-      setError(String(e));
+      setError(safeError(e));
     }
   };
 
@@ -73,7 +82,7 @@ export default function ReportForm({ t, lang }: ReportFormProps) {
       });
       setResult(report);
     } catch (e) {
-      setError(String(e));
+      setError(safeError(e));
     } finally {
       setLoading(false);
     }
