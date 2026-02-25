@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "title": "Rapport en Un Clic — Générateur PDF Automatique avec Résumé IA",
+    "description": "Transformez vos données en rapports visuels PDF instantanément. Résumé IA, graphiques interactifs, export professionnel."
+  },
+  "nav": {
+    "home": "Accueil",
+    "generate": "Générer",
+    "pricing": "Tarifs",
+    "lang": "Langue"
+  },
+  "hero": {
+    "title": "Rapport en un clic",
+    "subtitle": "Transformez vos données brutes en rapports visuels PDF avec résumé IA — instantanément.",
+    "cta": "Créer mon rapport",
+    "cta_demo": "Voir la démo"
+  },
+  "features": {
+    "title": "Fonctionnalités",
+    "pdf": {
+      "title": "Export PDF HD",
+      "desc": "Rapports professionnels avec mise en page automatique, graphiques intégrés et données formatées."
+    },
+    "charts": {
+      "title": "Graphiques interactifs",
+      "desc": "Barres, secteurs, lignes — vos données prennent vie avec des visualisations claires."
+    },
+    "ai": {
+      "title": "Résumé IA",
+      "desc": "Intelligence artificielle qui analyse vos données et produit un résumé structuré en secondes."
+    },
+    "i18n": {
+      "title": "4 langues",
+      "desc": "Français, anglais, espagnol et allemand — rapports multilingues natifs."
+    }
+  },
+  "form": {
+    "upload_title": "Chargez vos données",
+    "upload_desc": "Glissez un fichier CSV ou JSON, ou cliquez pour parcourir.",
+    "upload_btn": "Choisir un fichier",
+    "title_label": "Titre du rapport",
+    "title_placeholder": "Mon rapport mensuel",
+    "context_label": "Contexte",
+    "context_student": "Étudiant",
+    "context_pro": "Professionnel",
+    "charts_label": "Types de graphiques",
+    "generate_btn": "Générer mon rapport",
+    "generating": "Génération en cours...",
+    "download_pdf": "Télécharger le PDF",
+    "summary_title": "Résumé IA"
+  },
+  "footer": {
+    "made_with": "Propulsé par",
+    "rights": "Tous droits réservés"
+  }
+}

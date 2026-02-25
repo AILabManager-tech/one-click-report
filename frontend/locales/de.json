@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "title": "Ein-Klick-Bericht — Automatischer PDF-Generator mit KI-Zusammenfassung",
+    "description": "Verwandeln Sie Rohdaten sofort in visuelle PDF-Berichte. KI-Zusammenfassung, interaktive Diagramme, professioneller Export."
+  },
+  "nav": {
+    "home": "Startseite",
+    "generate": "Generieren",
+    "pricing": "Preise",
+    "lang": "Sprache"
+  },
+  "hero": {
+    "title": "Ein-Klick-Bericht",
+    "subtitle": "Verwandeln Sie Rohdaten in visuelle PDF-Berichte mit KI-Zusammenfassung — sofort.",
+    "cta": "Meinen Bericht erstellen",
+    "cta_demo": "Demo ansehen"
+  },
+  "features": {
+    "title": "Funktionen",
+    "pdf": {
+      "title": "HD-PDF-Export",
+      "desc": "Professionelle Berichte mit automatischem Layout, integrierten Diagrammen und formatierten Daten."
+    },
+    "charts": {
+      "title": "Interaktive Diagramme",
+      "desc": "Balken, Kreise, Linien — Ihre Daten werden mit klaren Visualisierungen lebendig."
+    },
+    "ai": {
+      "title": "KI-Zusammenfassung",
+      "desc": "Künstliche Intelligenz analysiert Ihre Daten und erstellt in Sekunden eine strukturierte Zusammenfassung."
+    },
+    "i18n": {
+      "title": "4 Sprachen",
+      "desc": "Französisch, Englisch, Spanisch und Deutsch — native mehrsprachige Berichte."
+    }
+  },
+  "form": {
+    "upload_title": "Laden Sie Ihre Daten hoch",
+    "upload_desc": "Ziehen Sie eine CSV- oder JSON-Datei hierher oder klicken Sie zum Durchsuchen.",
+    "upload_btn": "Datei auswählen",
+    "title_label": "Berichtstitel",
+    "title_placeholder": "Mein Monatsbericht",
+    "context_label": "Kontext",
+    "context_student": "Student",
+    "context_pro": "Professionell",
+    "charts_label": "Diagrammtypen",
+    "generate_btn": "Meinen Bericht generieren",
+    "generating": "Wird generiert...",
+    "download_pdf": "PDF herunterladen",
+    "summary_title": "KI-Zusammenfassung"
+  },
+  "footer": {
+    "made_with": "Angetrieben von",
+    "rights": "Alle Rechte vorbehalten"
+  }
+}

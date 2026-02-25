@@ -1,0 +1,16 @@
+node_modules/
+.next/
+out/
+__pycache__/
+*.pyc
+.env
+.env.local
+.env.production
+/frontend/.env.local
+/backend/fly.toml
+*.pdf
+/tmp/
+.vercel/
+
+# SECURITE: ne jamais commit les secrets
+manifest.json

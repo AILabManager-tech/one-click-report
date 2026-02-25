@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "title": "One-Click Report — Instant PDF Generator with AI Summary",
+    "description": "Transform raw data into visual PDF reports instantly. AI summary, interactive charts, professional export."
+  },
+  "nav": {
+    "home": "Home",
+    "generate": "Generate",
+    "pricing": "Pricing",
+    "lang": "Language"
+  },
+  "hero": {
+    "title": "One-Click Report",
+    "subtitle": "Transform raw data into visual PDF reports with AI summary — instantly.",
+    "cta": "Create my report",
+    "cta_demo": "See demo"
+  },
+  "features": {
+    "title": "Features",
+    "pdf": {
+      "title": "HD PDF Export",
+      "desc": "Professional reports with automatic layout, embedded charts, and formatted data."
+    },
+    "charts": {
+      "title": "Interactive Charts",
+      "desc": "Bars, pies, lines — your data comes alive with clear visualizations."
+    },
+    "ai": {
+      "title": "AI Summary",
+      "desc": "Artificial intelligence that analyzes your data and produces a structured summary in seconds."
+    },
+    "i18n": {
+      "title": "4 Languages",
+      "desc": "French, English, Spanish and German — native multilingual reports."
+    }
+  },
+  "form": {
+    "upload_title": "Upload your data",
+    "upload_desc": "Drag a CSV or JSON file, or click to browse.",
+    "upload_btn": "Choose a file",
+    "title_label": "Report title",
+    "title_placeholder": "My monthly report",
+    "context_label": "Context",
+    "context_student": "Student",
+    "context_pro": "Professional",
+    "charts_label": "Chart types",
+    "generate_btn": "Generate my report",
+    "generating": "Generating...",
+    "download_pdf": "Download PDF",
+    "summary_title": "AI Summary"
+  },
+  "footer": {
+    "made_with": "Powered by",
+    "rights": "All rights reserved"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "project": {
+    "name": "one-click-report",
+    "version": "3.1",
+    "display_name": "One-Click Report AI",
+    "domain": "report.marksystems.ca"
+  },
+
+  "deployment": {
+    "target": "vps",
+    "vps_host": "147.79.78.35",
+    "vps_user": "root",
+    "remote_dir": "/opt/one-click-report",
+    "frontend_port": 3001,
+    "backend_port": 8081
+  },
+
+  "config": {
+    "languages": ["fr", "en", "es", "de"],
+    "default_language": "fr",
+    "seo_targets": [
+      "instant report generator",
+      "rapport automatique étudiant",
+      "generador de reportes PDF",
+      "PDF Bericht Generator",
+      "AI report summary",
+      "résumé IA professionnel"
+    ],
+    "audience": "universal",
+    "features": ["pdf", "charts", "ai_summary"],
+    "freemium": true,
+    "max_free_reports": 5
+  },
+
+  "secrets": {
+    "_comment": "OPTIONNEL: l'app fonctionne SANS ces clés (mode dégradé)",
+    "OPENAI_API_KEY": "",
+    "SUPABASE_URL": "",
+    "SUPABASE_ANON_KEY": "",
+    "SUPABASE_SERVICE_KEY": ""
+  },
+
+  "seo": {
+    "fr": {
+      "title": "Rapport en Un Clic — Générateur PDF Automatique avec Résumé IA",
+      "description": "Transformez vos données en rapports visuels PDF instantanément. Résumé IA, graphiques interactifs, export professionnel.",
+      "keywords": "rapport automatique, générateur PDF, résumé IA, graphiques, rapport étudiant"
+    },
+    "en": {
+      "title": "One-Click Report — Instant PDF Generator with AI Summary",
+      "description": "Transform raw data into visual PDF reports instantly. AI summary, interactive charts, professional export.",
+      "keywords": "instant report, PDF generator, AI summary, charts, student report"
+    },
+    "es": {
+      "title": "Reporte en Un Clic — Generador PDF Automático con Resumen IA",
+      "description": "Transforme sus datos en reportes visuales PDF al instante. Resumen IA, gráficos interactivos, exportación profesional.",
+      "keywords": "generador de reportes, PDF automático, resumen IA, gráficos, reporte estudiante"
+    },
+    "de": {
+      "title": "Ein-Klick-Bericht — Automatischer PDF-Generator mit KI-Zusammenfassung",
+      "description": "Verwandeln Sie Rohdaten sofort in visuelle PDF-Berichte. KI-Zusammenfassung, interaktive Diagramme, professioneller Export.",
+      "keywords": "PDF Bericht Generator, automatischer Bericht, KI-Zusammenfassung, Diagramme, Studentenbericht"
+    }
+  }
+}
