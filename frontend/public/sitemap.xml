@@ -2,43 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://frontend-ten-peach-80.vercel.app/fr</loc>
+    <loc>https://oneclick.report/fr</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://frontend-ten-peach-80.vercel.app/fr"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://frontend-ten-peach-80.vercel.app/en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://frontend-ten-peach-80.vercel.app/es"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://frontend-ten-peach-80.vercel.app/de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://frontend-ten-peach-80.vercel.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://oneclick.report/fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oneclick.report/en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oneclick.report/es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://oneclick.report/de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oneclick.report/fr"/>
   </url>
   <url>
-    <loc>https://frontend-ten-peach-80.vercel.app/en</loc>
+    <loc>https://oneclick.report/en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://frontend-ten-peach-80.vercel.app/fr"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://frontend-ten-peach-80.vercel.app/en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://frontend-ten-peach-80.vercel.app/es"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://frontend-ten-peach-80.vercel.app/de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://frontend-ten-peach-80.vercel.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://oneclick.report/fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oneclick.report/en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oneclick.report/es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://oneclick.report/de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oneclick.report/fr"/>
   </url>
   <url>
-    <loc>https://frontend-ten-peach-80.vercel.app/es</loc>
+    <loc>https://oneclick.report/es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://frontend-ten-peach-80.vercel.app/fr"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://frontend-ten-peach-80.vercel.app/en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://frontend-ten-peach-80.vercel.app/es"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://frontend-ten-peach-80.vercel.app/de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://frontend-ten-peach-80.vercel.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://oneclick.report/fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oneclick.report/en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oneclick.report/es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://oneclick.report/de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oneclick.report/fr"/>
   </url>
   <url>
-    <loc>https://frontend-ten-peach-80.vercel.app/de</loc>
+    <loc>https://oneclick.report/de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://frontend-ten-peach-80.vercel.app/fr"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://frontend-ten-peach-80.vercel.app/en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://frontend-ten-peach-80.vercel.app/es"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://frontend-ten-peach-80.vercel.app/de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://frontend-ten-peach-80.vercel.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://oneclick.report/fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oneclick.report/en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oneclick.report/es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://oneclick.report/de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oneclick.report/fr"/>
   </url>
 </urlset>

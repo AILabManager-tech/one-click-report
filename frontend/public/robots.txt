@@ -12,4 +12,4 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
-Sitemap: https://frontend-ten-peach-80.vercel.app/sitemap.xml
+Sitemap: https://oneclick.report/sitemap.xml

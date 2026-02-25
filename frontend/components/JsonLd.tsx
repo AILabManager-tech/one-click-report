@@ -7,7 +7,7 @@ interface JsonLdProps {
   lang: Language;
 }
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://frontend-ten-peach-80.vercel.app";
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://oneclick.report";
 
 export default function JsonLd({ lang }: JsonLdProps) {
   const t = getDictionary(lang);
