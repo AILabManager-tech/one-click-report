@@ -99,6 +99,7 @@ export default function LocaleLayout({
         <link rel="alternate" hrefLang="x-default" href={`${BASE_URL}/fr`} />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+        <meta name="google-site-verification" content="RdHH748quZd3QIUwPtAGKtoj8iTZAeQnyaWYnuXNjGc" />
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7824408396443112"
