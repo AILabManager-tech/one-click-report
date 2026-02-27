@@ -37,7 +37,22 @@
   "form": {
     "upload_title": "Laden Sie Ihre Daten hoch",
     "upload_desc": "Ziehen Sie eine CSV- oder JSON-Datei hierher oder klicken Sie zum Durchsuchen.",
+    "upload_desc_v2": "CSV, JSON, Excel, PDF oder Bild",
     "upload_btn": "Datei auswählen",
+    "tab_upload": "Datei",
+    "tab_paste": "Text einfügen",
+    "paste_placeholder": "Fügen Sie hier Ihre Daten ein (Tabelle, CSV, Freitext...)",
+    "paste_btn": "Analysieren",
+    "preview_title": "Datenvorschau",
+    "preview_confirm": "Bestätigen",
+    "preview_retry": "Erneut versuchen",
+    "preview_confidence": "Vertrauen",
+    "preview_rows_count": "{count} Zeilen erkannt",
+    "preview_warnings": "Warnungen",
+    "sheet_select": "Excel-Blatt auswählen",
+    "parsing": "Analyse läuft...",
+    "no_data_found": "Keine Daten erkannt",
+    "format_detected": "Erkanntes Format: {format}",
     "title_label": "Berichtstitel",
     "title_placeholder": "Mein Monatsbericht",
     "context_label": "Kontext",
@@ -62,7 +77,7 @@
     },
     {
       "q": "Welche Datenformate werden unterstützt?",
-      "a": "CSV- und JSON-Dateien werden unterstützt. Die JSON-Datei muss ein Array von Objekten enthalten. Maximal 10.000 Zeilen und 10 MB pro Datei."
+      "a": "CSV, JSON, Excel (.xlsx/.xls), PDF (Tabellenextraktion + OCR) und Bilder (JPG, PNG, HEIC). Sie können auch Text direkt einfügen. Maximal 10.000 Zeilen und 20 MB pro Datei."
     },
     {
       "q": "Ist die KI-Zusammenfassung in meiner Sprache verfügbar?",

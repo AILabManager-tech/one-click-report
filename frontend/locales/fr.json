@@ -37,7 +37,22 @@
   "form": {
     "upload_title": "Chargez vos données",
     "upload_desc": "Glissez un fichier CSV ou JSON, ou cliquez pour parcourir.",
+    "upload_desc_v2": "CSV, JSON, Excel, PDF ou image",
     "upload_btn": "Choisir un fichier",
+    "tab_upload": "Fichier",
+    "tab_paste": "Coller du texte",
+    "paste_placeholder": "Collez ici vos données (tableau, CSV, texte libre...)",
+    "paste_btn": "Analyser",
+    "preview_title": "Aperçu des données",
+    "preview_confirm": "Confirmer",
+    "preview_retry": "Réessayer",
+    "preview_confidence": "Confiance",
+    "preview_rows_count": "{count} lignes détectées",
+    "preview_warnings": "Avertissements",
+    "sheet_select": "Choisissez la feuille Excel",
+    "parsing": "Analyse en cours...",
+    "no_data_found": "Aucune donnée détectée",
+    "format_detected": "Format détecté : {format}",
     "title_label": "Titre du rapport",
     "title_placeholder": "Mon rapport mensuel",
     "context_label": "Contexte",
@@ -62,7 +77,7 @@
     },
     {
       "q": "Quels formats de données sont acceptés ?",
-      "a": "Les fichiers CSV et JSON sont supportés. Le fichier JSON doit contenir un tableau d'objets. Maximum 10 000 lignes et 10 Mo par fichier."
+      "a": "CSV, JSON, Excel (.xlsx/.xls), PDF (extraction de tableaux + OCR), et images (JPG, PNG, HEIC). Vous pouvez aussi coller du texte directement. Maximum 10 000 lignes et 20 Mo par fichier."
     },
     {
       "q": "Le résumé IA est-il disponible dans ma langue ?",

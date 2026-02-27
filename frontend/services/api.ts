@@ -1,4 +1,4 @@
-import type { ReportInput, ReportOutput, UploadResponse } from "@/types/report";
+import type { ReportInput, ReportOutput, UploadResponse, ParseResponse } from "@/types/report";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "";
 
@@ -32,6 +32,28 @@ export function getPdfUrl(reportId: string): string {
 
 export function getChartUrl(reportId: string, index: number): string {
   return `${API_URL}/api/v1/reports/${reportId}/chart/${index}`;
+}
+
+export async function parseInput(
+  file?: File,
+  text?: string,
+  options?: Record<string, unknown>
+): Promise<ParseResponse> {
+  const formData = new FormData();
+  if (file) formData.append("file", file);
+  if (text) formData.append("text", text);
+  if (options) formData.append("options", JSON.stringify(options));
+
+  const res = await fetch(`${API_URL}/api/v1/reports/parse`, {
+    method: "POST",
+    body: formData,
+  });
+
+  if (!res.ok) {
+    const body = await res.json().catch(() => ({ detail: res.statusText }));
+    throw new Error(body.detail || `Parse failed: ${res.statusText}`);
+  }
+  return res.json();
 }
 
 interface ValidationResult {

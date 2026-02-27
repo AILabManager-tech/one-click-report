@@ -34,8 +34,8 @@ def _build_html(data: list[dict], charts: list[Path], summary: str,
         cells = "".join(f"<td>{escape(str(row.get(col, '')))}</td>" for col in columns)
         body_rows += f"<tr>{cells}</tr>"
 
-    from datetime import datetime
-    now = datetime.utcnow().strftime("%Y-%m-%d %H:%M")
+    from datetime import datetime, timezone
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
 
     return f"""<!DOCTYPE html>
 <html lang="{language}">

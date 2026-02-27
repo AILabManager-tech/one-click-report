@@ -37,7 +37,22 @@
   "form": {
     "upload_title": "Cargue sus datos",
     "upload_desc": "Arrastre un archivo CSV o JSON, o haga clic para explorar.",
+    "upload_desc_v2": "CSV, JSON, Excel, PDF o imagen",
     "upload_btn": "Elegir un archivo",
+    "tab_upload": "Archivo",
+    "tab_paste": "Pegar texto",
+    "paste_placeholder": "Pegue aquí sus datos (tabla, CSV, texto libre...)",
+    "paste_btn": "Analizar",
+    "preview_title": "Vista previa de datos",
+    "preview_confirm": "Confirmar",
+    "preview_retry": "Reintentar",
+    "preview_confidence": "Confianza",
+    "preview_rows_count": "{count} filas detectadas",
+    "preview_warnings": "Advertencias",
+    "sheet_select": "Elija la hoja de Excel",
+    "parsing": "Analizando...",
+    "no_data_found": "No se detectaron datos",
+    "format_detected": "Formato detectado: {format}",
     "title_label": "Título del reporte",
     "title_placeholder": "Mi reporte mensual",
     "context_label": "Contexto",
@@ -62,7 +77,7 @@
     },
     {
       "q": "¿Qué formatos de datos se aceptan?",
-      "a": "Se admiten archivos CSV y JSON. El archivo JSON debe contener un arreglo de objetos. Máximo 10.000 filas y 10 MB por archivo."
+      "a": "CSV, JSON, Excel (.xlsx/.xls), PDF (extracción de tablas + OCR) e imágenes (JPG, PNG, HEIC). También puede pegar texto directamente. Máximo 10.000 filas y 20 MB por archivo."
     },
     {
       "q": "¿El resumen IA está disponible en mi idioma?",
